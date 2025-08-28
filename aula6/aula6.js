@@ -17,7 +17,7 @@ remove.addEventListener('click',function(event) {
     const nome = document.getElementById('nome').value;
     const index = cadastros.indexOf(nome); 
     if(index != 1){
-        cadastros.splice(i,1);
+        cadastros.splice(0,1);
         atualizarlista();
     }else{
         alert('nome nao encontrado para remoção')

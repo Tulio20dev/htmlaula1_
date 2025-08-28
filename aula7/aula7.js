@@ -5,7 +5,7 @@ async function buscarImagenDog() {
 function aoClicar() {
     document.getElementById('status').innerText = 'Carregando...';
     buscarImagenDog()
-    .then(dados => {
+    .then(dadxos => {
         document.getElementById('status').innerText = 'Sucesso!';
         document.getElementById('dog').src = dados.message;
     })

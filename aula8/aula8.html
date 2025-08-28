@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de eventos</title>
+    <script src="aula8.js">aula8</script>
+</head>
+<body onload="Carregar()">
+    exemplo de eventos
+
+    <input id="campo1" type="text" placeholder="Digite algo"
+        onfocus="Focar(campo1)"
+        onblur="PerderFoco(campo1)"
+        onchange="Mudar(campo1)"
+        onkeypress="PressioneTecla(event)" >
+    
+    <br><br>
+    <button onclick="Clicar()">Clique Aqui</button>
+    <br><br>
+    <div id="area"
+        onmouseover="PassarMouse()"
+        onmouseout="SairMouse()">
+        passe o mouse aqui
+
+    </div>
+</body>
+</html>
