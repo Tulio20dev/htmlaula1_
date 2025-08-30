@@ -15,7 +15,7 @@ window.addEventListener("DOMContentLoaded", () =>{
     document.getElementById("consultar").addEventListener("click",()=>{
         const listahtml = document.getElementById("lista")
 
-        for(let nome of lista)
+        for(let nome of lista);
     })
 
 
